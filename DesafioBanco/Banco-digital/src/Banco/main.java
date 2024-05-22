@@ -12,6 +12,8 @@ public class Main {
 		
 		cc.imprimirExtrato();
 		poupanca.imprimirExtrato();
+		ContaPoupanca.calcularJuros();
+		poupanca.calcularJuros();
 	}
 
 }

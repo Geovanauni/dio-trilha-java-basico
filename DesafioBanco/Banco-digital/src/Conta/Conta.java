@@ -13,6 +13,7 @@ public abstract class Conta implements IConta {
 		this.numero = SEQUENCIAL++;
 		this.cliente = cliente;
 	}
+	} 
 
 	@Override
 	public void sacar(double valor) {
